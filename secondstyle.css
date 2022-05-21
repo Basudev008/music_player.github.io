@@ -1,0 +1,159 @@
+.main-page{
+    width: 100%;
+    position: absolute;
+    top: 12%;
+}
+
+@media screen and (min-width:900px) {
+    html{
+      font-size: 25px;
+    }
+  
+    .main-page{
+        width: 70%;
+        position: unset;
+    }
+
+    .coldplay-img img{
+        height: 14rem;
+        width: 40%;
+    }
+    
+  }
+
+/* main album coldplay */
+
+#album-main-div{
+    height: 50%;
+    background-color: #141b41;
+    
+}
+
+.coldplay-img{
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+    
+}
+
+.coldplay-img img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+.coldplay-info{
+    display: inline-block;
+    height: 100%;
+    width: 55%;
+    margin-left: 2%;
+    
+    vertical-align: top;
+}
+
+.coldplay-info span:nth-child(1){
+    font-size: 0.8rem;
+    
+    
+}
+
+.coldplay-info span:nth-child(2){
+    font-size: 0.5rem;
+    margin-left: 48%;
+}
+
+.coldplay-info span:nth-child(6){
+    font-size: 0.5rem;
+}
+
+.coldplay-info p{
+    font-size: 0.4rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0px;
+    
+}
+
+.coldplay-info input{
+    margin-top: 1.5rem;
+    width: 4rem;
+    height: 1rem;
+    font-size: 0.5rem;
+    margin-right: 1.3rem;
+}
+
+.lastline{
+    margin-bottom : 3rem;
+}
+
+/* album songs */
+
+.album-songs{
+    display: flex;
+    flex-direction: column;
+}
+
+.album-song{
+    background-color: #1a1e33;
+    margin-top: 0.3rem;
+}
+
+.index{
+    position: relative;
+    top: -0.5rem;
+    margin-right: 0.2rem;
+}
+
+.album-song img{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0.2rem;
+}
+
+
+
+.album-song p{
+    margin: 0px;
+    font-size: 0.5rem;
+    margin-right: 13rem;
+    margin-left: 0.3rem;
+    position: relative;
+    top: -0.4rem;
+}
+
+
+.album-song i{
+    margin-right: 0.5rem;
+    font-size: 0.5rem;
+    position: relative;
+    top: -0.5rem;
+}
+/* latest-release-2 */
+
+#latest-release-2 .flexbox{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
+
+.flexbox .music-info{
+    width: 100%;
+}
+
+#latest-release-2 .section-title{
+    font-size: 0.7rem;
+    opacity: 1;
+}
+
+#latest-release-2 .section-title span{
+    font-size: 0.4rem;
+    margin-left: 25%;
+}
+
+#queue-menu-2{
+    font-size: 0.4rem;
+    display: inline;
+    margin-left: 10%;
+}

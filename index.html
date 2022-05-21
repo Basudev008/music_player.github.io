@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>music player</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/eacfc49d99.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    
+
+    <div class="main-page">
+      <header>
+      <div class="header-container">
+        <div id="player-logo" class="inline-items">
+          <img src="images/OIP.jpg" id="logo-image">
+        </div>
+         
+        <div class="inline-items" id="player-name">
+          <p class="whiteText">Ninja</p>
+          <p class="whiteText">Studio</p>
+
+        </div>  
+
+        <div class = "inline-items fav">
+          <span class="whiteText fav-text">Favourites</span>
+        </div>
+
+        <div id="search-box" class="inline-items">
+          <div id="search-icon" class="inline-items">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div id="search-text" class="inline-items">
+            <p class="whiteText">Search</p>
+          </div>
+
+          <div id="mic">
+            <i class="fa-solid fa-microphone"></i>
+          </div>
+          
+        </div>
+
+        <div class="notification inline-items">
+          <i class="fa-solid fa-bell notif-image"></i>
+        </div>
+
+        <div class="user-image inline-items">
+          <img src="images/basudev.jpg">
+        </div>
+      </div>
+      </header>
+
+      <!-- main section -->
+      <section id="main-section">
+        
+        <div class="album-carousel">
+          <div class="album-image">
+            <img src="images/m1.jpg">
+          </div>
+
+          <div class="album-image">
+            <img src="images/m2.jpg">
+          </div>
+
+          <div class="album-image">
+            <img src="images/m3.jpg">
+          </div>
+        </div>
+       
+      
+        <div id="latest-release">
+              <p class="whiteText section-title">Latest Release</p>
+        
+              <div class="flexbox">
+                <div class="music-info">
+                  <img src="images/m4.jpg">
+                  <div class="music-label">
+                    <p >Onism</p>
+                    <p >AUG 11, 2017</p>
+                  </div>
+                  <div class="music-add-info">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <p>4:44</p>
+                  </div>
+                </div>
+                <div class="music-info">
+                  <img src="images/m4.jpg">
+                  <div class="music-label">
+                    <p >Onism</p>
+                    <p >AUG 11, 2017</p>
+                  </div>
+                  <div class="music-add-info">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <p>4:44</p>
+                  </div>
+                </div>
+                <div class="music-info">
+                  <img src="images/m4.jpg">
+                  <div class="music-label">
+                    <p >Onism</p>
+                    <p >AUG 11, 2017</p>
+                  </div>
+                  <div class="music-add-info">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <p>4:44</p>
+                  </div>
+                </div>
+                <div class="music-info">
+                  <img src="images/m4.jpg">
+                  <div class="music-label">
+                    <p >Onism</p>
+                    <p >AUG 11, 2017</p>
+                  </div>
+                  <div class="music-add-info">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <p>4:44</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div id="popular-artists">
+            <p class="whiteText section-title">Popular Artists</p>
+            <div class="flexbox-artists">
+              <div class="inside-flex">
+                <img src="images/ed.jpg">
+                <div class="artist-name">Ed Sheeran</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/coldplay.jpg">
+                <div class="artist-name">ColdPlay</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/zayn.jpg">
+                <div class="artist-name">Zayn</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/ed.jpg">
+                <div class="artist-name">Ed Sheeran</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/coldplay.jpg">
+                <div class="artist-name">ColdPlay</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/zayn.jpg">
+                <div class="artist-name">Zayn</div>
+              </div>
+            </div>
+          </div>
+
+<!-- stations -->
+          <div id="stations">
+              <div class="station-div">
+                <img src="images/stations.jpg">
+
+              </div>
+              
+              <div class="station-div">
+                <img src="images/love.jpg">
+                <p class="station-text">Love</p>
+              </div>
+
+              <div class="station-div">
+                <img src="images/retro.jpg">
+                <p class="station-text">Retro</p>
+              </div>
+
+              <div class="station-div">
+                <img src="images/chill.jpg">
+                <p class="station-text">Chill</p>
+              </div>
+              <div class="station-div">
+                <img src="images/love.jpg">
+                <p class="station-text">Love</p>
+              </div>
+
+              <div class="station-div">
+                <img src="images/retro.jpg">
+                <p class="station-text">Retro</p>
+              </div>
+
+              <div class="station-div">
+                <img src="images/chill.jpg">
+                <p class="station-text">Chill</p>
+              </div>
+          </div>
+<!-- music type -->
+          <div id="music-type">
+                        
+            <div class="type-div">
+              <img src="images/party.jpg">
+              <p class="type-text">Party</p>
+            </div>
+
+            <div class="type-div">
+              <img src="images/electronics.jpg">
+              <p class="type-text">Electronics</p>
+            </div>
+            <div class="type-div">
+              <img src="images/road.jpg">
+              <p class="type-text">Road Trip</p>
+            </div>
+          </div>
+<!-- latest English -->
+          <div class="latest-english">
+            <p class="whiteText section-title">Latest English</p>
+            <div class="flexbox-artists">
+              <div class="inside-flex">
+                <img src="images/onism-1.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/onism-3.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/onism-2.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/onism-4.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/onism-2.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/onism-3.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+            </div>
+          </div>
+<!-- latest hindi -->
+
+          <div class="latest-english">
+            <p class="whiteText section-title">Latest English</p>
+            <div class="flexbox-artists">
+              <div class="inside-flex">
+                <img src="images/onism-1.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/onism-4.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/onism-2.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/onism-3.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/onism-1.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+              <div class="inside-flex">
+                <img src="images/onism-4.jpg">
+                <div class="artist-name">Onism</div>
+                <div class="artist-name">AUG 11, 2017</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <aside id="playlist">
+          <div id="queue-text">
+            Queue
+          </div>
+          <div id="queue-menu">
+            Queue
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+
+          <div class="queue-item">
+            <div class="index inline-items">
+              <span>01</span>
+            </div>
+            <div class="item-image">
+              <img src="images/onism-1.jpg">
+            </div>
+            <div class="item-info">
+              <p>Mirage</p>
+              <p>Else</p>
+            </div>
+            <div class="like-symbol inline-items">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="queue-item">
+            <div class="index inline-items">
+              <span>01</span>
+            </div>
+            <div class="item-image">
+              <img src="images/onism-1.jpg">
+            </div>
+            <div class="item-info">
+              <p>Mirage</p>
+              <p>Else</p>
+            </div>
+            <div class="like-symbol inline-items">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="queue-item">
+            <div class="index inline-items">
+              <span>01</span>
+            </div>
+            <div class="item-image">
+              <img src="images/onism-1.jpg">
+            </div>
+            <div class="item-info">
+              <p>Mirage</p>
+              <p>Else</p>
+            </div>
+            <div class="like-symbol inline-items">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="queue-item">
+            <div class="index inline-items">
+              <span>01</span>
+            </div>
+            <div class="item-image">
+              <img src="images/onism-1.jpg">
+            </div>
+            <div class="item-info">
+              <p>Mirage</p>
+              <p>Else</p>
+            </div>
+            <div class="like-symbol inline-items">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="queue-item">
+            <div class="index inline-items">
+              <span>01</span>
+            </div>
+            <div class="item-image">
+              <img src="images/onism-1.jpg">
+            </div>
+            <div class="item-info">
+              <p>Mirage</p>
+              <p>Else</p>
+            </div>
+            <div class="like-symbol inline-items">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="queue-item">
+            <div class="index inline-items">
+              <span>01</span>
+            </div>
+            <div class="item-image">
+              <img src="images/onism-1.jpg">
+            </div>
+            <div class="item-info">
+              <p>Mirage</p>
+              <p>Else</p>
+            </div>
+            <div class="like-symbol inline-items">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="queue-item">
+            <div class="index inline-items">
+              <span>01</span>
+            </div>
+            <div class="item-image">
+              <img src="images/onism-1.jpg">
+            </div>
+            <div class="item-info">
+              <p>Mirage</p>
+              <p>Else</p>
+            </div>
+            <div class="like-symbol inline-items">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+      </aside>
+    </div>
+
+</body>
+
+</html>
